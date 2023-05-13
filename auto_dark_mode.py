@@ -5,9 +5,9 @@ import asyncio
 from concurrent.futures import ThreadPoolExecutor
 import logging
 
-iterm2_color_scheme_path = '/System/Volumes/Data/Users/wanghaonan/Library/Preferences/com.googlecode.iterm2.plist'
+# for iterm debugging
 logging.basicConfig(
-    filename='/Users/wanghaonan/Library/Application Support/iTerm2/Scripts/logs/iterm2_auto_launch.log', level=logging.DEBUG)
+    filename='your_log_path', level=logging.DEBUG)
 
 dark_keyword_list = ['dark', 'Dark', 'DARK']
 light_keyword_list = ['light', 'Light', 'LIGHT']
